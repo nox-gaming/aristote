@@ -1,4 +1,4 @@
-# JamStack
+# JAMStack
 > Javascript Api Markup
 
 This stack is really powerful and make less work to great performances and results. All is managed by webhooks and triggers. The aim is to use it with AWS to automate a fully managed content-first website, linked to the nox-api.
