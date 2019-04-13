@@ -21,6 +21,7 @@
   ],
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
     "@zeit/next-sass": "^1.0.1",
     "cowsay-browser": "^1.1.8",
     "cross-env": "^5.2.0",

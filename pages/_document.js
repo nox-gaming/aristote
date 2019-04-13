@@ -9,7 +9,8 @@ export default class MyDocument extends Document {
         return (
             <html>
                 <Head>
-                    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/atom-one-light.min.css" rel="stylesheet" />
+                    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+                    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
                 </Head>
                 <body>
                     <Main />
