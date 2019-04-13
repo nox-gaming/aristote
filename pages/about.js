@@ -1,7 +1,8 @@
-import Layout from '../components/MyLayout.js'
+import Layout from '../components/BasicLayout.js'
 
 export default () => (
     <Layout>
-        <p>This is the about page</p>
+        <h1>A bit about us</h1>
+        <p>We're a small community of gamers who love to play together. Our aim is to go in the highest ranks possible while playing for fun.</p>
     </Layout>
 )
