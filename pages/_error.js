@@ -1,1 +1,1 @@
-export default () => <div>Whoopsy !</div>
+export default () => <div>Whoopsy something gone wrong!</div>
