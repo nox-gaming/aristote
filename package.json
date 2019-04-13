@@ -1,22 +1,37 @@
 {
-  "name": "aristote",
-  "version": "1.0.0",
-  "description": "",
+  "name": "nox-gaming-front",
+  "version": "0.0.1",
+  "description": "A multigaming website for nox-gaming",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nox",
+    "nox-gaming",
+    "gaming",
+    "multigaming",
+    "website"
+  ],
+  "authors": [
+    "ugo.arzur@gmail.com",
+    "Carbo"
+  ],
   "license": "ISC",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "cowsay-browser": "^1.1.8",
-    "next": "^7.0.2",
+    "cross-env": "^5.2.0",
+    "marked": "^0.6.2",
+    "next": "^7.0.3",
     "node-sass": "^4.11.0",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-highlight": "^0.12.0"
+  },
+  "devDependencies": {
+    "webpack-bundle-analyzer": "^3.3.2"
   }
 }
