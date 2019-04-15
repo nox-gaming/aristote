@@ -1,5 +1,6 @@
-import Layout from '../components/BasicLayout.js'
 import Link from 'next/link'
+
+import Layout from '../components/BasicLayout.js'
 
 export default () => (
   <Layout>

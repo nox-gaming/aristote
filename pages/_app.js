@@ -5,7 +5,7 @@ import { MuiThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import JssProvider from 'react-jss/lib/JssProvider';
 import getPageContext from '../src/getPageContext';
-
+import AppBar from '../components/AppBar'
 class MyApp extends App {
   constructor() {
     super();
@@ -27,6 +27,7 @@ class MyApp extends App {
         <Head>
           <title>My page</title>
         </Head>
+        <AppBar />
         {/* Wrap every page in Jss and Theme providers */}
         <JssProvider
           registry={this.pageContext.sheetsRegistry}
