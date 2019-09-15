@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "nox-gaming-front",
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@now/static-build"
+        }
+    ]
+}

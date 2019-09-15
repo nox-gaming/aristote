@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["d63e"],{"1HF/":function(n,e,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/_error",function(){var n=o("Y0NT");return{page:n.default||n}}])},Y0NT:function(n,e,o){"use strict";o.r(e);var t=o("q1tI"),r=o.n(t);e.default=function(){return r.a.createElement("div",null,"Whoopsy something gone wrong!")}}},[["1HF/","5d41","9da1"]]]);

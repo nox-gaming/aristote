@@ -5,23 +5,35 @@ import green from '@material-ui/core/colors/green';
 
 // A theme with custom primary and secondary color.
 // It's optional.
-const theme = createMuiTheme({
-  palette: {
-    primary: {
-      light: purple[300],
-      main: purple[500],
-      dark: purple[700],
-    },
-    secondary: {
-      light: green[300],
-      main: green[500],
-      dark: green[700],
-    },
-  },
-  typography: {
-    useNextVariants: true,
-  },
-});
+// const theme = createMuiTheme({
+//   palette: {
+//     primary: {
+//       light: purple[300],
+//       main: purple[500],
+//       dark: purple[700],
+//     },
+//     secondary: {
+//       light: green[300],
+//       main: green[500],
+//       dark: green[700],
+//     },
+//   },
+//   typography: {
+//     useNextVariants: true,
+//   },
+// });
+
+const palette = {
+  primary: { main: '#2a3035' },
+  secondary: { main: '#e2763b', contrastText: '#212121' }
+};
+
+// Required for the v2 typography migration
+// https://material-ui.com/style/typography/#migration-to-typography-v2
+const typography = { useNextVariants: true }
+const paletteName = 'Outer Space Red Damask Python';
+
+const theme = createMuiTheme({ palette, paletteName, typography })
 
 function createPageContext() {
   return {

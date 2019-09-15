@@ -1,14 +1,14 @@
-import Header from './Header'
+import Nav from './Nav'
 
 const layoutStyle = {
-    margin: 20,
-    padding: 20,
+    margin: 0,
+    padding: 0,
     border: '1px solid #DDD'
 }
 
 const Layout = (props) => (
     <div style={layoutStyle}>
-        <Header />
+        <Nav />
         {props.children}
     </div>
 )
