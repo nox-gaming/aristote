@@ -1,6 +1,7 @@
 {
     "version": 2,
     "name": "nox-gaming-front",
+    "scope": "nox-gaming",
     "builds": [
         {
             "src": "package.json",
